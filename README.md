@@ -92,31 +92,3 @@ tumor_detection/
     ├── Training/              # Données d'entraînement (4 classes)
     └── Testing/               # Données de test (4 classes)
 ```
-
-## Apprentissages clés
-
-### Défis rencontrés
-
-**Surapprentissage du CNN personnalisé** :
-- Dataset de petite taille limitant l'apprentissage from scratch
-- Solution : combinaison de Dropout, Batch Normalization, Early Stopping et Data Augmentation
-
-**Généralisation limitée** :
-- Le modèle from scratch reste limité malgré l'augmentation de données
-- Le Transfer Learning s'impose comme solution efficace pour les petits datasets
-
-### Compétences développées
-
-- Conception et implémentation d'architectures CNN personnalisées
-- Maîtrise du Transfer Learning et fine-tuning
-- Techniques de régularisation pour éviter l'overfitting
-- Expérimentation systématique et tracking avec ClearML
-- Compréhension des enjeux du Deep Learning en imagerie médicale
-
-## Perspectives d'amélioration
-
-- Fine-tuning progressif des couches ResNet50
-- Test d'architectures alternatives (EfficientNet, Vision Transformers)
-- Gestion du déséquilibre de classes (class weights, focal loss)
-- Explicabilité des prédictions (Grad-CAM, SHAP)
-- Déploiement via API (Flask/FastAPI)
