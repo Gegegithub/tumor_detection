@@ -65,6 +65,8 @@ Dense (4, softmax)
 |--------|---------------|-----------|
 | **CNN Personnalisé** | 64.72% | 1.2796 |
 | **ResNet50 (Transfer Learning)** | 70.81% | 1.2345 |
+<img width="1539" height="748" alt="Image" src="https://github.com/user-attachments/assets/86453ef7-1845-4e05-a4e7-3ea54b9374d1" />
+<img width="1559" height="752" alt="Image" src="https://github.com/user-attachments/assets/c2943170-8db0-4dbc-b793-1b003c94dfac" />
 
 **Observations** :
 - Le modèle ResNet50 converge plus rapidement et généralise mieux
